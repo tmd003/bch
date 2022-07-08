@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+
+#home-page {
+    background-image: linear-gradient(rgba(158, 158, 158, 0.3),  rgba(236, 67, 67, 0.3)),
+                       url(../img/472-4728081_teeth-whitening-patient-smiling-happy-young-black-woman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+/* home-page-styling */
+
+.home-page-text {
+    margin-top: 120px;
+    color: #fff;
+}
+
+#training-section h1 {
+    margin-top: 145px;
+}
+
+#find-out-section .find-out-text {
+    margin-top: 100px;
+    align-items: flex-start;
+}
+
+#find-out-section .border {
+    /* height: 100px; */
+}
+
+#our-courses {
+    background-color: ghostwhite;
+}
+
+#our-courses ul {
+    list-style: none;
+   }
+   
+   #our-courses .buy-now {
+       align-items: center;
+   }
+   
+   #our-courses .card-body {
+       padding: 40px 20px;
+       text-align: center;
+       border-radius: 8px;
+       position: relative;
+       overflow: hidden;
+       background: #fefefe;
+       box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%)
+   }
+   
+   #our-courses .card {
+       background: #fefefe;
+   }
+   
+   
+   #our-courses h4 {
+           font-size: 42px;
+           color: rgb(212, 40, 40);
+           font-weight: 500;
+           font-family: "Open Sans", sans-serif;
+   }
+   
+   #our-courses h4 span {
+       color: #bababa;
+       font-size: 16px;
+       font-weight: 300;
+   }
+   
+   #our-courses h3 {
+           font-weight: 400;
+           padding: 15px;
+           font-size: 18px;
+           text-transform: uppercase;
+           font-weight: 600;
+           color: #124265;
+   }
+   
+   
+   #our-courses .card-blue .card-body {
+       background: rgb(212, 40, 40);
+   }
+   
+   #our-courses .card-blue h4 {
+       color: #fff;
+   }
+   
+   #our-courses .card-blue h3 {
+       color: #fff;
+   }
+   
+   #our-courses .card-blue ul {
+       color: #fff;
+   }
+
+   #testimonials .slide-section .testimonial-box {
+        border-radius: 10px;
+
+   }
+
+  #mailing {
+    background-color: ghostwhite;
+  }
+
+  #about-us-section .visions .red-container {
+    background-color: rgb(212, 40, 40);
+    box-shadow: 0px 5px 90px 0px rgba(70, 76, 78, 0.1)
+  }
+
+  #about-us-section .visions ul {
+    list-style: none;
+  }
+
+  #about-us-section .visions ul li i {
+     color: rgb(212, 40, 40);
+  }
+
+  #about-us-section .visions hr {
+    border-width: 3px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+
+  #count-section {
+    background-color: #f8fbfe;
+}
+
+#count-section .count-box span {
+    font-size: 48px;
+    line-height: 48px;
+    display: block;
+    font-weight: 700;
+    color: rgb(212, 40, 40);
+}
+
+#footer-section {
+    background-color: whitesmoke;
+}
+
+#footer-section .copyrights {
+    margin-top: 55px;
+}
+
+
+#footer-section .socials-icon a {
+    font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: black;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 5px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
