@@ -8,13 +8,19 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 
+html, body{
+    display: block;
+    overflow-x: hidden;
+    width: 100%;
+ }
+
 
 #home-page {
-    background-image: linear-gradient(rgba(24, 23, 23, 0.3), rgba(10, 10, 10, 0.3)),
-                       url(../img/472-4728081_teeth-whitening-patient-smiling-happy-young-black-woman.png);
+    background-image: linear-gradient(rgba(252, 245, 245, 0.0), rgba(10, 10, 10, 0.7)),
+                       url(../img/bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center;
 
 }
 
